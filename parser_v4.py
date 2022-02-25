@@ -131,6 +131,6 @@ def parse_dict(decanat: dict)->dict:
                 pass
     write_json(decanat_pure)
     return decanat_pure
-decanat = parser("file4.txt")
+decanat = parser("wrks_with_parser\\file4.txt")
 decanat_pure = parse_dict(decanat)
 pprint(decanat_pure)
